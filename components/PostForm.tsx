@@ -49,7 +49,11 @@ function PostForm() {
 
       {image && (
         <div>
-          <img src={image} alt="Preview" className="w-full object-cover rounded-md" />
+          <img
+            src={image}
+            alt="Preview"
+            className="w-full object-cover rounded-md"
+          />
         </div>
       )}
 
@@ -68,7 +72,13 @@ function PostForm() {
         </Button>
 
         {image && (
-          <Button asChild variant={"destructive"} type="button" onClick={() => setImage(null)}>
+          <Button
+            asChild
+            variant={"destructive"}
+            type="button"
+            onClick={() => setImage(null)}
+            className="hover:cursor-pointer"
+          >
             <span>
               <XIcon className="mr-2" size={16} />
               Remove Image

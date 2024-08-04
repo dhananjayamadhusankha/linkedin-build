@@ -22,7 +22,7 @@ async function UserInformation() {
           <p className="font-semibold">
             {firstName} {lastName}
           </p>
-          <p className="text-xs">
+          <p className="text-xs md:line-clamp-1">
             @{firstName}
             {lastName}-{user?.id.slice(-4)}
           </p>

@@ -20,7 +20,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className="flex flex-col min-h-screen">
-          <header className="border-b bg-white sticky z-50">
+          <header className="border-b bg-white sticky z-50 top-0">
             <Header />
           </header>
           <div className="bg-[#F4F2ED] flex-1 w-full">

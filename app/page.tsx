@@ -1,9 +1,21 @@
+import UserInformation from "@/components/UserInformation";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex">
-      <h1>Linkedin</h1>
-    </main>
+    <div className="grid">
+      <section>
+       <UserInformation />
+      </section>
+
+      <section>
+        {/* post form */}
+        {/* post feed */}
+      </section>
+
+      <section>
+        {/* widget */}
+      </section>
+    </div>
   );
 }
